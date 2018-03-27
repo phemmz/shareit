@@ -1,0 +1,26 @@
+{
+  "name": "shareit",
+  "version": "1.0.0",
+  "description": "To be updated later.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noordean/shareit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noordean/shareit/issues"
+  },
+  "homepage": "https://github.com/noordean/shareit#readme"
+}
