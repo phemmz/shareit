@@ -1,0 +1,9 @@
+language: node_js
+node_js: 6
+before_script:
+    - npm install
+    - npm install -g mocha
+    - npm install -g nyc
+script: npm test
+after_script: npm run coverage
+after_success: cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
